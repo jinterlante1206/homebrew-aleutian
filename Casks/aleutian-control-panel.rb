@@ -1,4 +1,4 @@
-cask "AleutianControlPanel" do
+cask "aleutian-control-panel" do
   # Use the version from your GUI app's release
   version "0.1.1"
 
