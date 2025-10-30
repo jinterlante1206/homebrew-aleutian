@@ -16,7 +16,7 @@ cask "aleutian-control-panel" do
   app "AleutianControlPanel.app"
 
   # (Optional) Add dependencies if the app needs them, though it usually just runs commands
-  depends_on formula "aleutian"
+  depends_on "aleutian"
 
   # (Optional) Add uninstall commands
   zap trash: [
