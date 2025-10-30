@@ -10,7 +10,9 @@ class Aleutian < Formula
   # We need Go to build the binary
   depends_on "go" => :build
   depends_on "podman"
+  depends_on cask "ollama"
   depends_on "podman-compose"
+
 
   def install
     ldflags = "-s -w -X main.version=#{version}"

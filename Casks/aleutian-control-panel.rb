@@ -1,6 +1,6 @@
 cask "aleutian-control-panel" do
   # Use the version from your GUI app's release
-  version "0.1.1"
+  version "0.1.2"
 
   # Get the SHA256 of the .zip file you uploaded to the release
   sha256 "f74fbd04f99eeed9dee030e82514a13edc15ed82eb28276b0c8bd5cee018facf"
@@ -16,7 +16,7 @@ cask "aleutian-control-panel" do
   app "AleutianControlPanel.app"
 
   # (Optional) Add dependencies if the app needs them, though it usually just runs commands
-  # depends_on formula: "aleutian"
+  depends_on formula "aleutian"
 
   # (Optional) Add uninstall commands
   zap trash: [
