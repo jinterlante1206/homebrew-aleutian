@@ -5,7 +5,7 @@ class Aleutian < Formula
   # !! IMPORTANT !!: You MUST update the 'url' and 'sha256' for EVERY new release.
   # curl -L "https://github.com/jinterlante1206/AleutianLocal/archive/refs/tags/v0.2.2.tar.gz" | shasum -a 256
   url "https://github.com/jinterlante1206/AleutianLocal/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  sha256 "89d0a84a8b0505ffb5e1c8afb5d8ba3bbbba917847165c9edbd23be24cc79686"
   license "AGPL-3.0-only"
 
   # We need Go to build the binary
